@@ -83,9 +83,9 @@ export default class About extends Component {
 									About <span>Me</span>
 								</h2>
 								<p data-aos="fade-right" data-aos-delay="100">
-									<b>Product Manager || Asana Certified Workflow Specialist
-										|| HNG 11 Finalist || AI Enthusiast || Problem Solver
-									</b>
+									Artificial Intelligence <b>|</b> ML & DL <b>|</b> Data Science
+										<b>|</b> Global Health <b>|</b> Epidemiology
+									
 								</p>
 								<button className="button2">
 									<a href="https://drive.google.com/file/d/1qXsVOY7DNekVzwwyc5SSt71HFJvFQSGf/view?usp=sharing" 
@@ -95,31 +95,31 @@ export default class About extends Component {
 								</button>
 								<button className="button2">
 									<a href="https://paul-ajibola.netlify.app/work" 
-									rel="noopener noreferrer">See Product Section &#8594;</a>
+									rel="noopener noreferrer">See Project Section &#8594;</a>
 								</button>
 								<p data-aos="fade-right" data-aos-delay="100">
 									<em>Hey there! &#x1F44B; </em>
 								</p>
 								<p data-aos="fade-right" data-aos-delay="100">
-									It's great to have you here. I'm <b>Paul AJIBOLA</b>; an agile product manager. 
-									I'm a <b>driven</b> and <b>inquisitive</b> person who has a strong desire to <b>learn</b> and <b>grow</b>. 
-									I'm passionate about using technology to build <b>innovative solutions</b> that address real-world challenges of businesses and individuals. 
-									<br></br><b>My goal is to contribute to products that not only delight users, but also drive sustainable business growth, while also gaining more experience in the world of products.</b>
+									It's great to have you here. I'm <b>Paul AJIBOLA</b>; an AI Engineer with a background in <b>Veterinary Medicine</b> 
+									<br></br>and a growing focus on <b>building</b> practical, relable AI systems. 
+									My journey began in Veterinary Medicine at <br></br>the University of Ibadan, Nigeria where 
+									I developed a foundation
+									in <b>scientific reasoning, disease investigation <br></br>and evidence-based problem-solving</b>.
+									My curiosity about data and technology gradually led me into Data Science, <br></br>Machine Learning, and AI Engineering.  
+									<br></br>
+									Today, I build AI-Powered applications, intelligent agentic systems, machine learning models and
+									data-driven systems. <br></br>I am constantly looking for ways to apply these technologies to solve global health challenges.
 								</p>
 								
-								<div className="bio">
+								{/* <div className="bio">
 									<h4 data-aos="fade-up" data-aos-delay="150">
-										<span class="initial-letter">A Bit About My</span> Journey So Far.
+										<span class="initial-letter">A Multidisciplinary</span> Perspective.
 									</h4>
 									<p data-aos="fade-up" data-aos-delay="250">
 										{" "}
-										<b><h6>Learning, Growing, Building. &#128200; </h6></b>
-									My journey into product management began with a training
-									from product school. This foundational program equipped me with a comprehensive 
-									understanding of the product development lifecycle—from ideation and strategy
-									to execution and iteration. It also ignited in me a desire for practical 
-									application, leading me to participate in the reputable HNG Tech Internship program, where
-									I finished as one of the <strong>500 finalists</strong> out of approximately <strong>30,000 global participants</strong>. 
+										<b><h6>Science, Data and AI &#128200; </h6></b>
+									<b>Science:</b> Vet shaped how 
 									</p>
 									<p data-aos="fade-up" data-aos-delay="350">
 									The HNG Tech internship program provided me a dynamic and enabling environment where I had the opportunity to 
@@ -134,31 +134,32 @@ export default class About extends Component {
 										My ultimate aspiration is to someday <b>become an AI product manager</b>. In this role, 
 										I envision myself building and managing AI solutions that address real human problems. 
 									</p> */}
-								</div>
+								{/* </div> */}
 
 								<div className="bio">
 									<h4 data-aos="fade-up" data-aos-delay="150">
 										<span class="initial-letter">My Skills </span>And Expertise.
 									</h4>
-									<h6 class="padding"><b>Technical Skill &#x1F4BB;</b></h6>
+									<h6 class="padding"><b>Core Technical Skill &#x1F4BB;</b></h6>
 									<p data-aos="fade-up" data-aos-delay="250">
 									<em> My competencies lie in: </em> </p>
 									<div
 									className="about-text col-lg-12 col-md-12 col-12"
 									data-aos="fade-up" data-aos-delay="270">
-										<button className="button">Product Discovery & Planning</button>
-										<button className="button">Market Analysis</button>
-										<button className="button">UX & User Research</button>
-										<button className="button">Agile & Scrum Methodologies</button> 
-										<button className="button">Roadmap & Backlog Management</button> 
-										<button className="button">End-to-End Product Lifecycle Mgt</button> 
+										<button className="button">AI Engineering</button> <span>Transformers, LLMs, RAG, AI Agents, LangGraph, FastAPI, REST APIs, Finetuning</span> <br/>
+										<button className="button">Machine Learning</button> <span>Scikit-Learn, Supervised Learning, Unsupervised Learning, Model Evaluation, Feature Engineering</span> <br/>
+										<button className="button">Deep Learning & Computer Vision</button> <span>PyTorch, CNNS, Transfer Learning, Image Classification and Object Detection, Sequence Models</span> <br/>
+										<button className="button">Data Science</button> <span>Python, Pandas, NumPy, SQL, Exploratory Data Analyses, Statistical Analyses</span> <br/>
+										<button className="button">Tools & Deployment</button> <span>Git, GitHub, Docker, CI/CD, API deployment</span> <br/>
+										<button className="button">Research</button> <span>Quantitative and Qualitative Methodologies, Scientific Databases (JSTOR, PubMed), Technical Writing</span> <br/>
+										{/* <button className="button">End-to-End Product Lifecycle Mgt</button> 
 										<button className="button">QA Testing</button>
 										<button className="button">Stakeholder Management</button>
 										<button className="button">Technical Writing & Documentation</button>
-										<button className="button">Product Data Analytics & Metrics Tracking</button>
+										<button className="button">Product Data Analytics & Metrics Tracking</button> */}
 									</div>
 
-									<h6 data-aos="fade-up" data-aos-delay="350" class="padding"><b>Tools &#128295;</b></h6>
+									{/* <h6 data-aos="fade-up" data-aos-delay="350" class="padding"><b>Tools &#128295;</b></h6>
 									<p data-aos="fade-up" data-aos-delay="250">
 									<em> Here is a glimpse into my PM Toolbox: </em> </p>
 									<div
@@ -168,7 +169,7 @@ export default class About extends Component {
 										<button className="button">Communication</button> <span>Slack, Plumble, Google Suite, Loom, Microsoft Teams, Discord</span> <br/>
 										<button className="button">Analytics</button> <span>Google Analytics, Mixpanel, Hotjar</span> <br/>
 										<button className="button">Design</button> <span>Figma, Figjam, Canva, Miro, Draw.io</span>
-									</div>
+									</div> */}
 
 									{/* <div className="button-container">
 										<div className="tool-group">
@@ -193,7 +194,7 @@ export default class About extends Component {
 									</div>
 									 */}
 
-									<h6 data-aos="fade-up" data-aos-delay="350" class="padding"><b>Others &#129513;</b></h6>
+									{/* <h6 data-aos="fade-up" data-aos-delay="350" class="padding"><b>Others &#129513;</b></h6>
 									<p data-aos="fade-up" data-aos-delay="250">
 									<em> I am also adept at the following: </em> </p>
 									<div
@@ -201,14 +202,14 @@ export default class About extends Component {
 									data-aos="fade-up" data-aos-delay="250">
 										<button className="button">Programming Languages</button> <span>HTML, CSS, Javascript (Intermediate), SQL, Python</span> <br/>
 										<button className="button">Soft Skills</button> <span>Collaboration, Critical thinking, Leadership, Problem Solving, Business Acumen, Adaptability. </span> <br/>
-									</div>
+									</div> */}
 								</div>
 
 								<div className="bio mb-5">
 									<h4 data-aos="fade-up" data-aos-delay="150">
-										<span className= "initial-letter">Meet The Person </span>Beyind The Work
+										{/* <span className= "initial-letter">Meet The Person </span>Beyind The Work */}
 									</h4>
-									<h6 data-aos="fade-up" data-aos-delay="250" class="padding"><b>Beyond the Resume: Who am I beyond my work? &#127912;</b></h6>
+									{/* <h6 data-aos="fade-up" data-aos-delay="250" class="padding"><b>Beyond the Resume: Who am I beyond my work? &#127912;</b></h6> */}
 									<p data-aos="fade-up" data-aos-delay="250">
 										{/* <a
 											href="https://hng.tech/internship"
@@ -216,27 +217,27 @@ export default class About extends Component {
 											target="_black">
 											HNG Tech
 										</a>{" "} */}
-										<i>People often wonder if I'm an introvert or an extrovert. Honestly, I think it depends on the situation. I've come to realize that
+										{/* <i>People often wonder if I'm an introvert or an extrovert. Honestly, I think it depends on the situation. I've come to realize that
 										I'm an ambivert; meaning I have both introverted and extroverted tendencies.
 										I take this mix of qualities as a unique strength because it helps me effortlessly thrive not only in collaborative environments,
-										but also in situations where I am required to carry out projects independently; like in research.</i>
+										but also in situations where I am required to carry out projects independently; like in research.</i> */}
 									</p>
 
-									<h6 data-aos="fade-up" data-aos-delay="350" class="padding"><b><span className= "initial-letter">The Values That Shape Me &#x1f331;</span></b></h6>
+									{/* <h6 data-aos="fade-up" data-aos-delay="350" class="padding"><b><span className= "initial-letter">The Values That Shape Me &#x1f331;</span></b></h6> */}
 
-									<p data-aos="fade-up" data-aos-delay="350">
+									{/* <p data-aos="fade-up" data-aos-delay="350">
 										<i>Three core values shape and define who I am. They are excellence, a lifelong commitment to personal growth and balance. Excellence drives me to always strive 
 										for the highest quality in everything I do, fueling in me a desire to continually commit to lifelong learning. 
 										I also believe in finding harmony between work, personal life, and self-care. These three things form the core of my person.</i> 
-									</p>
+									</p> */}
 
-									<h6 data-aos="fade-up" data-aos-delay="450" class="padding"><b><span className= "initial-letter">Outside Managing Products, The Things I Love to Do &#x2764;&#xfe0f;</span></b></h6>
+									{/* <h6 data-aos="fade-up" data-aos-delay="450" class="padding"><b><span className= "initial-letter">Outside Managing Products, The Things I Love to Do &#x2764;&#xfe0f;</span></b></h6> */}
 
-									<p data-aos="fade-up" data-aos-delay="450">
+									{/* <p data-aos="fade-up" data-aos-delay="450">
 										<i>When I'm not managing products, I enjoy volunteering, reading, watching documentaries and biopic movies, teaching and journaling. 
 										Occasionally, I also write songs. Other times, I just enjoy bingeing YouTube clips of Lionel Messi. Honestly, I think he is the best
 										thing that ever happened to football. No offence, if you are a Ronaldo fan!</i>
-									</p>
+									</p> */}
 									<button className="button2">
 									<a href="https://paul-ajibola.netlify.app/work" 
 									rel="noopener noreferrer">See Project Section &#8594;</a>
