@@ -80,7 +80,7 @@ export default class Work extends Component {
 					</div>
 					<div className="container skills-text">
 						<div className="row section-1">
-							<div className="col-lg-9 col-md-9 col-12">
+							<div className="col-lg-6 col-md-6 col-12">
 								<div className="header">
 									<h2>
 										Let's <span>Explore</span> My <span>Work</span>
@@ -91,11 +91,12 @@ export default class Work extends Component {
 										rel="noopener noreferrer">See Contact Me Section &#8594;</a>
 								</button>
 								<p>
-									Welcome to my project showcase! <br></br>Here, you'll find a selection
+									Welcome to my project showcase! <br />Here, you'll find a selection
 									of AI and ML projects that I have built.
 									{" "}
 									Each work reflects my passion to use these technologies to provide solutions.
 									Enjoy your time here as you explore these projects{" "}
+									
 									{/* <a
 										href="https://hng.tech/internship"
 										rel="noopener noreferrer"
@@ -103,6 +104,12 @@ export default class Work extends Component {
 										HNG Tech
 									</a> */}
 									{" "}
+								</p>
+								<hr />
+								<p>
+									{" "}
+									<b>Most projects are deployed on Render for free. It takes about 10 - 15 seconds to
+									 start up and become active after periods of dormancy &#9888;</b>{" "}
 								</p>
 
 								{/* <p>
@@ -122,26 +129,26 @@ export default class Work extends Component {
 								<div className="col-lg-6 col-md-6 col-sm-12">
 									<div className="project-item">
 										<div className="project-img">
-											<img src="public\img\chest-x-ray.png" alt="project" />
+											<img src="/img/chest-x-ray.png" alt="project" />
 											<div className="project-links">
 												<a
 													href="https://covid-19-chest-x-ray-classifier-model.onrender.com/"
 													title="visit project"
 													target="_blank"
 													rel="noopener noreferrer">
-													Visit X-Ray Classifier (MVP)
+													Visit X-Ray Classifier
 												</a>
 											</div>
 										</div>
 										<h5>
 											<strong>
-												X-Ray Classifier (MVP)
+												X-Ray Classifier (COVID-19 Detection Model)
 											</strong>
 										</h5>
 										<p>
-											Delve is an artificial intelligence (AI)-powered language learning
-											solution that uses a three-dimensional, gamified approach in a fun
-											and immersive environment to help users learn new languages.
+											Multiclass chest X-ray classifier (COVID, Lung Opacity, Normal, Viral Pneumonia) built with
+											a DenseNet-121 CNN in PyTorch and benchmarked against a ResNet-18 baseline. Served via a
+											FastAPI REST API with Pydantic validation, Docker containerized, and GitHub Actions CI/CD.
 										</p>
 										<p>
 											The product was the result of a collaborative effort of a dynamic and
@@ -149,22 +156,20 @@ export default class Work extends Component {
 
 											&nbsp;As an active contributor of the PM team, I was involved in <strong> researching key market opportunities
 												and challenges, defining the product vision and strategy, determining technical specifications, and collaborating
-												with the various technical teams </strong>to develop, test and launch the Delve MVP. These contributions led to a 45%
-											reduction in workflow during iterations and a 100% fully functioning and scalable Delve MVP.
+												with the various technical teams </strong>to develop, test and launch the Delve MVP. 
 										</p>
 
 										<p className="tech">
-											<strong>Stack:</strong>
-											<button className="button">Jira</button>
-											<button className="button">Linear</button>
-											<button className="button">Google Forms / SurveyMonkey</button>
-											<button className="button">Notion</button>
-											<button className="button">Figma</button>
-											<button className="button">Github</button>
-											<button className="button">Google Workspace (Docs, Slides, Sheets)</button>
-											<button className="button">Slack</button>
-											<button className="button">Miro</button>
-											<button className="button">Loom</button>
+											<strong>Tools</strong>
+											<button className="button">PyTorch</button>
+											<button className="button">ResNet-18</button>
+											<button className="button">DesNet-121</button>
+											<button className="button">FastAPI</button>
+											<button className="button">Docker</button>
+											<button className="button">CI/CD</button>
+											<button className="button">Computer Vision</button>
+											<button className="button">Transfer Learning</button>
+											<button className="button">Deployment (Render)</button>
 										</p>
 									</div>
 								</div>
@@ -174,19 +179,19 @@ export default class Work extends Component {
 								<div className="col-lg-6 col-md-6 col-sm-12">
 									<div className="project-item">
 										<div className="project-img">
-											<img src="img/HNG Tech.PNG" alt="project" />
+											<img src="/img/diabetes-predictor.png" alt="project" />
 											<div className="project-links">
 												<a
-													href="https://https://staging.nextjs.boilerplate.hng.tech/about-us"
+													href="https://diabetes-predictor-1-jwsu.onrender.com/"
 													title="visit project"
 													target="_blank"
 													rel="noopener noreferrer">
-													Visit HNG Tech Boilerplate (MVP)
+													Diabetes Progression Predictor
 												</a>
 											</div>
 										</div>
 										<h5>
-											<strong>HNG Tech Boilerplate (MVP)</strong>
+											<strong>Diabetes Progression Predictor</strong>
 										</h5>
 										<p>
 											The HNG Tech Boilerplate (MVP) is a standardized framework containing
@@ -209,14 +214,16 @@ export default class Work extends Component {
 										</p>
 
 										<p className="tech">
-											<strong>Tools:</strong>
-											<button className="button">Jira</button>
-											<button className="button">Linear</button>
-											<button className="button">Notion</button>
-											<button className="button">Figma</button>
-											<button className="button">Github</button>
-											<button className="button">Google Workspace (Docs, Slides, Sheets)</button>
-											<button className="button">Slack</button>
+											<strong>Tools</strong>
+											{/* <button className="button">FastAPI</button> */}
+											<button className="button">FastAPI</button>
+											<button className="button">Scikit-Learn</button>
+											<button className="button">Random Forest</button>
+											<button className="button">Docker</button>
+											<button className="button">Pytest</button>
+											<button className="button">Deployment (Render)</button>
+											<button className="button">CI/CD</button>
+											{/* <button className="button">Deployed (Render)</button> */}
 										</p>
 									</div>
 								</div>
@@ -224,19 +231,19 @@ export default class Work extends Component {
 								<div className="col-lg-6 col-md-6 col-sm-12">
 									<div className="project-item">
 										<div className="project-img">
-											<img src="img/Telex.png" alt="project" />
+											<img src="/img/epi-spread.png" alt="project" />
 											<div className="project-links">
 												<a
-													href="https://telex.im/"
+													href="https://epispread-game.onrender.com/"
 													title="visit project"
 													target="_blank"
 													rel="noopener noreferrer">
-													Telex 1.0
+													EpiSpread Game
 												</a>
 											</div>
 										</div>
 										<h3>
-											<strong>Telex 1.0</strong>
+											<strong>EpiSpread Game (Outbreak Simulation)</strong>
 										</h3>
 										<p>
 											The Telex 1.0 App is a solution that uses AI-powered agents to streamline team
@@ -250,13 +257,16 @@ export default class Work extends Component {
 													the PRD and product backlog </b>for the development of Telex 1.0.
 										</p>
 										<p className="tech">
-											<strong>Tools:</strong>
-											<button className="button">Linear</button>
-											<button className="button">Github</button>
-											<button className="button">Figma</button>
-											<button className="button">Notion</button>
-											<button className="button">Google Workspace (Docs, Slides, Sheets)</button>
-											<button className="button">Slack</button>
+											<strong>Tools</strong>
+											{/* <button className="button">FastAPI</button> */}
+											<button className="button">Python</button>
+											<button className="button">Agentic Coding</button>
+											<button className="button">AGENT.md</button>
+											<button className="button">DESIGN.md</button>
+											<button className="button">Claude Code</button>
+											<button className="button">Deployment (Render)</button>
+											{/* <button className="button">CI/CD</button> */}
+											{/* <button className="button">Deployed (Render)</button> */}
 										</p>
 									</div>
 								</div>
@@ -264,19 +274,19 @@ export default class Work extends Component {
 								<div className="col-lg-6 col-md-6 col-sm-12">
 									<div className="project-item">
 										<div className="project-img">
-											<img src="img/dryklin.jpg" alt="project" />
+											<img src="public/img/image.png" alt="project" />
 											<div className="project-links">
 												<a
-													href="https://drive.google.com/file/d/11ewNACrWbSl3yvAt_Rwupsq7n56iLbw8/view?usp=sharing"
+													href="https://mental-health-classifier-nlp-2.onrender.com/"
 													title="visit project"
 													target="_blank"
 													rel="noopener noreferrer">
-													Dry Klin
+													Mental Health Classifier
 												</a>
 											</div>
 										</div>
 										<h3>
-											<strong>DryKlin Mobile App (MVP)</strong>
+											<strong>Mental Health Classifier</strong>
 										</h3>
 										<p>
 											DryKlin is a mobile app that helps users manage their laundry needs from a phone.
@@ -291,13 +301,106 @@ export default class Work extends Component {
 											<b>collaborated with UI/UX and development teams to deliver the MVP.</b>
 										</p>
 										<p className="tech">
-											<strong>Tools:</strong>
-											<button className="button">Jira</button>
-											<button className="button">Github</button>
-											<button className="button">Figma</button>
-											<button className="button">Notion</button>
-											<button className="button">Google Workspace (Docs, Slides, Sheets)</button>
-											<button className="button">Slack</button>
+											<strong>Tools</strong>
+											{/* <button className="button">FastAPI</button> */}
+											<button className="button">Sequence Models (GRU, RNN, LSTM)</button>
+											<button className="button">SVM, Naive Bayes</button>
+											<button className="button">NLP</button>
+											<button className="button">Random Forest</button>
+											<button className="button">Docker</button>
+											<button className="button">Pytest</button>
+											<button className="button">CI/CD</button>
+											{/* <button className="button">Deployed (Render)</button> */}
+										</p>
+									</div>
+								</div>
+
+
+									{/* support triage */}
+								<div className="col-lg-6 col-md-6 col-sm-12">
+									<div className="project-item">
+										<div className="project-img">
+											<img src="public/img/support triage agent.png" alt="project" />
+											<div className="project-links">
+												<a
+													href="https://support-triage-agent-suhw.onrender.com/"
+													title="visit project"
+													target="_blank"
+													rel="noopener noreferrer">
+													Visit Support Triage Project
+												</a>
+											</div>
+										</div>
+										<h3>
+											<strong>Support Triage Agent</strong>
+										</h3>
+										<p>
+											The Telex 1.0 App is a solution that uses AI-powered agents to streamline team
+											communication by reducing distractions and automating repetitive tasks. Like slack,
+											except that it is a more advanced alternative, Telex 1.0 allows clear communication alongside monitoring functions: which
+											include application performance, cloud monitoring, database monitoring, log analysis, webhook testing and uptime monitoring.
+										</p>
+										<p>
+											As one of the product managers in a team of product managers, I was <b>responsible for versioning
+												the features </b>that make up the product. Additionally, I was collaboratively <b>responsible for developing and managing
+													the PRD and product backlog </b>for the development of Telex 1.0.
+										</p>
+										<p className="tech">
+											<strong>Tools</strong>
+											{/* <button className="button">FastAPI</button> */}
+											<button className="button">Python</button>
+											<button className="button">LangGraph</button>
+											<button className="button">Redis</button>
+											<button className="button">LLM Finetuning</button>
+											<button className="button">LLM Serving</button>
+											<button className="button">Docker</button>
+											<button className="button">System Design</button>
+											<button className="button">Deployment (Render)</button>
+											{/* <button className="button">CI/CD</button> */}
+											{/* <button className="button">Deployed (Render)</button> */}
+										</p>
+									</div>
+								</div>
+
+								<div className="col-lg-6 col-md-6 col-sm-12">
+									<div className="project-item">
+										<div className="project-img">
+											<img src="/img/epi-spread.png" alt="project" />
+											<div className="project-links">
+												<a
+													href="https://github.com/Paul-Ajibola/compliance-and-policy-copilot-rag-system"
+													title="visit project"
+													target="_blank"
+													rel="noopener noreferrer">
+													Visit Co-Pilot RAG System
+												</a>
+											</div>
+										</div>
+										<h3>
+											<strong>Policy Co-pilot RAG System</strong>
+										</h3>
+										<p>
+											The Telex 1.0 App is a solution that uses AI-powered agents to streamline team
+											communication by reducing distractions and automating repetitive tasks. Like slack,
+											except that it is a more advanced alternative, Telex 1.0 allows clear communication alongside monitoring functions: which
+											include application performance, cloud monitoring, database monitoring, log analysis, webhook testing and uptime monitoring.
+										</p>
+										<p>
+											As one of the product managers in a team of product managers, I was <b>responsible for versioning
+												the features </b>that make up the product. Additionally, I was collaboratively <b>responsible for developing and managing
+													the PRD and product backlog </b>for the development of Telex 1.0.
+										</p>
+										<p className="tech">
+											<strong>Stack</strong>
+											{/* <button className="button">FastAPI</button> */}
+											<button className="button">Python</button>
+											<button className="button">RAG</button>
+											<button className="button">LLM</button>
+											<button className="button">Re-Ranking</button>
+											<button className="button">Evaluation</button>
+											<button className="button">LLM-as-a-Judge</button>
+											<button className="button">Deployment (Render)</button>
+											{/* <button className="button">Deployed (Render)</button> */}
 										</p>
 									</div>
 								</div>
@@ -338,20 +441,26 @@ export default class Work extends Component {
 						</div>
 					</div>
 
-					<div className="container skills-text2">
+
+
+
+
+
+
+					{/* <div className="container skills-text2"> */}
 						{/* <div className="row section-1"> */}
-						<div className="col-lg-9 col-md-9 col-12">
-							<div className="header">
-								<h2>
-									Product <span>Teardown</span> & <span>More</span>
-								</h2>
-							</div>
-							<p>This section showcases my passion for understanding products at a deeper level.
-								Beyond building products, I believe in constantly learning from existing ones. This section highlights my <b>analytical and critical
-									thinking skills</b> through a collection of in-depth analyses of successful products presented as product teardowns. Here, you will also find some of my
-								competitive analyses, market research reports, and other technical
-								documents.</p>
-						</div>
+						{/* <div className="col-lg-9 col-md-9 col-12"> */}
+							{/* <div className="header"> */}
+								{/* <h2> */}
+									{/* Product <span>Teardown</span> & <span>More</span> */}
+								{/* </h2> */}
+							{/* </div> */}
+							{/* <p>This section showcases my passion for understanding products at a deeper level. */}
+								{/* Beyond building products, I believe in constantly learning from existing ones. This section highlights my <b>analytical and critical */}
+									{/* thinking skills</b> through a collection of in-depth analyses of successful products presented as product teardowns. Here, you will also find some of my */}
+								{/* competitive analyses, market research reports, and other technical */}
+								{/* documents.</p> */}
+						{/* </div> */}
 
 						{/* <div className="project">
 							<h2>
@@ -440,92 +549,92 @@ export default class Work extends Component {
 
 					</div>
 						 */}
-						<div className="project">
-							<h2>
-								Sele<span>cted</span> <span>Sam</span>ples
-							</h2>
-							<div className="row">
-								<div className="col-lg-6 col-md-6 col-sm-12">
-									<div className="project-item">
-										<div className="project-img">
-											<img src="img/kuda.PNG" alt="project" />
-											<div className="project-links">
-												<a
-													href="https://drive.google.com/file/d/1eKvMvVs65m735D1qpr_nrgxHdlJ1v_oo/view?usp=sharing"
-													title="visit project"
-													target="_blank"
-													rel="noopener noreferrer">
-													Visit Kuda App (Product Teardown)
-												</a>
-											</div>
-										</div>
-										<h5>
-											<strong>
-												Kuda Bank App (Product Teardown)
-											</strong>
-										</h5>
-										<p>
-											Kuda is a Nigerian-based, digital-only bank that provides a mobile-first banking experience.
-											Launched in 2019, Kuda differentiates itself by offering free banking services and a fully
-											digital platform, making it highly accessible to young, tech-savvy Nigerians.
-										</p>
-										<p>
-											My goal in this product teardown was to analyze the Kuda Bank app
-											by <b>examining its features, target audience, user experience, competitors, and growth opportunities,
-												ultimately identifying potential areas for product improvement and innovation.</b>
-										</p>
-										<p className="tech">
-											<strong>Tools:</strong>
-											<button className="button">Market Research DBs (Statista, IBISWorld)</button>
-											<button className="button">Figma</button>
-											<button className="button">Google Workspace (Docs, Slides, Sheets)</button>
-											<button className="button">Miro</button>
-										</p>
-									</div>
-								</div>
+						{/* <div className="project"> */}
+							{/* <h2> */}
+								{/* Sele<span>cted</span> <span>Sam</span>ples */}
+							{/* </h2> */}
+							{/* <div className="row"> */}
+								{/* <div className="col-lg-6 col-md-6 col-sm-12"> */}
+									{/* <div className="project-item"> */}
+										{/* <div className="project-img"> */}
+											{/* <img src="img/kuda.PNG" alt="project" /> */}
+											{/* <div className="project-links"> */}
+												{/* <a */}
+													{/* href="https://drive.google.com/file/d/1eKvMvVs65m735D1qpr_nrgxHdlJ1v_oo/view?usp=sharing" */}
+													{/* title="visit project" */}
+													{/* target="_blank" */}
+													{/* rel="noopener noreferrer"> */}
+													{/* Visit Kuda App (Product Teardown) */}
+												{/* </a> */}
+											{/* </div> */}
+										{/* </div> */}
+										{/* <h5> */}
+											{/* <strong> */}
+												{/* Kuda Bank App (Product Teardown) */}
+											{/* </strong> */}
+										{/* </h5> */}
+										{/* <p> */}
+											{/* Kuda is a Nigerian-based, digital-only bank that provides a mobile-first banking experience. */}
+											{/* Launched in 2019, Kuda differentiates itself by offering free banking services and a fully */}
+											{/* digital platform, making it highly accessible to young, tech-savvy Nigerians. */}
+										{/* </p> */}
+										{/* <p> */}
+											{/* My goal in this product teardown was to analyze the Kuda Bank app */}
+											{/* by <b>examining its features, target audience, user experience, competitors, and growth opportunities, */}
+												{/* ultimately identifying potential areas for product improvement and innovation.</b> */}
+										{/* </p> */}
+										{/* <p className="tech"> */}
+											{/* <strong>Tools:</strong> */}
+											{/* <button className="button">Market Research DBs (Statista, IBISWorld)</button> */}
+											{/* <button className="button">Figma</button> */}
+											{/* <button className="button">Google Workspace (Docs, Slides, Sheets)</button> */}
+											{/* <button className="button">Miro</button> */}
+										{/* </p> */}
+									{/* </div> */}
+								{/* </div> */}
+{/*  */}
+								{/* <hr /> */}
+{/*  */}
+								{/* <div className="col-lg-6 col-md-6 col-sm-12"> */}
+									{/* <div className="project-item"> */}
+										{/* <div className="project-img"> */}
+											{/* <img src="img/Fitbit.PNG" alt="project" /> */}
+											{/* <div className="project-links"> */}
+												{/* <a */}
+													{/* href="https://docs.google.com/document/d/1Haeqkf4aVwKCVdpqiXCdkJCcda1HMJwLwmsJO1Bw/edit?usp=sharing" */}
+													{/* title="visit project" */}
+	{/* /												target="_blank" */}
+													{/* rel="noopener noreferrer"> */}
+													{/* Visit Fitbit Versa 2 (Product Teardown) */}
+												{/* </a> */}
+											{/* </div> */}
+										{/* </div> */}
+										{/* <h5> */}
+											{/* <strong>Fitbit Versa 2 (Product Teardown)</strong> */}
+										{/* </h5> */}
+										{/* <p> */}
+											{/* The Fitbit Versa 2 is a feature-rich smartwatch that balances fitness */}
+											{/* tracking with smart features like Amazon Alexa integration and smartphone notifications. */}
+											{/* It also offers comprehensive health tracking, including heart rate monitoring, */}
+											{/* sleep analysis, and exercise modes. */}
+										{/* </p> */}
+										{/* <p> */}
+											{/* My objective for conducting the product teardown of the Fitbit Versa 2 smartwatch was */}
+											{/* to thoroughly <b>evaluate its design, functionality, and performance by analyzing key */}
+											{/* features, user interface, target demographics, and overall user satisfaction.</b> */}
+										{/* </p> */}
+{/*  */}
+										{/* <p className="tech"> */}
+											{/* <strong>Tools:</strong> */}
+											{/* <button className="button">Market Research DBs (Statista, IBISWorld)</button> */}
+											{/* <button className="button">Figma</button> */}
+											{/* <button className="button">Google Workspace (Docs, Slides, Sheets)</button> */}
+											{/* <button className="button">Miro</button> */}
+										{/* </p> */}
+								{/* </div> */}
+								{/* </div> */}
 
-								<hr />
-
-								<div className="col-lg-6 col-md-6 col-sm-12">
-									<div className="project-item">
-										<div className="project-img">
-											<img src="img/Fitbit.PNG" alt="project" />
-											<div className="project-links">
-												<a
-													href="https://docs.google.com/document/d/1Haeqkf4aVwKCVdpqiXCdkJCcda1HMJwLwmsJO1Bw/edit?usp=sharing"
-													title="visit project"
-													target="_blank"
-													rel="noopener noreferrer">
-													Visit Fitbit Versa 2 (Product Teardown)
-												</a>
-											</div>
-										</div>
-										<h5>
-											<strong>Fitbit Versa 2 (Product Teardown)</strong>
-										</h5>
-										<p>
-											The Fitbit Versa 2 is a feature-rich smartwatch that balances fitness
-											tracking with smart features like Amazon Alexa integration and smartphone notifications.
-											It also offers comprehensive health tracking, including heart rate monitoring,
-											sleep analysis, and exercise modes.
-										</p>
-										<p>
-											My objective for conducting the product teardown of the Fitbit Versa 2 smartwatch was
-											to thoroughly <b>evaluate its design, functionality, and performance by analyzing key
-												features, user interface, target demographics, and overall user satisfaction.</b>
-										</p>
-
-										<p className="tech">
-											<strong>Tools:</strong>
-											<button className="button">Market Research DBs (Statista, IBISWorld)</button>
-											<button className="button">Figma</button>
-											<button className="button">Google Workspace (Docs, Slides, Sheets)</button>
-											<button className="button">Miro</button>
-										</p>
-									</div>
-								</div>
-
-								<hr />
+								{/* <hr /> */}
 
 
 
@@ -630,10 +739,7 @@ export default class Work extends Component {
 										</p>
 									</div>
 								</div> */}
-							</div>
-						</div>
-
-					</div>
+							{/* </div> */}
 
 
 					<div className="about-social">
