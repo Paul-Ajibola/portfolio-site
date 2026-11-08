@@ -84,34 +84,34 @@ export default class About extends Component {
 								</h2>
 								<p data-aos="fade-right" data-aos-delay="100">
 									Artificial Intelligence <b>|</b> ML & DL <b>|</b> Data Science
-										<b>|</b> Global Health <b>|</b> Epidemiology
-									
+									<b>|</b> Global Health <b>|</b> Epidemiology
+
 								</p>
 								<button className="button2">
-									<a href="https://drive.google.com/file/d/1qXsVOY7DNekVzwwyc5SSt71HFJvFQSGf/view?usp=sharing" 
-									target="_blank"
-									rel="noopener noreferrer"
-									download="PaulAJIBOLA_Resume.pdf">Download My Resume</a>
+									<a href="https://drive.google.com/file/d/1qXsVOY7DNekVzwwyc5SSt71HFJvFQSGf/view?usp=sharing"
+										target="_blank"
+										rel="noopener noreferrer"
+										download="PaulAJIBOLA_Resume.pdf">Download My Resume</a>
 								</button>
 								<button className="button2">
-									<a href="https://paul-ajibola.netlify.app/work" 
-									rel="noopener noreferrer">See Project Section &#8594;</a>
+									<a href="https://paul-ajibola.netlify.app/work"
+										rel="noopener noreferrer">See Project Section &#8594;</a>
 								</button>
 								<p data-aos="fade-right" data-aos-delay="100">
 									<em>Hey there! &#x1F44B; </em>
 								</p>
 								<p data-aos="fade-right" data-aos-delay="100">
-									It's great to have you here. I'm <b>Paul AJIBOLA</b>; an AI Engineer with a background in <b>Veterinary Medicine</b> 
-									<br></br>and a growing focus on <b>building</b> practical, relable AI systems. 
-									My journey began in Veterinary Medicine at <br></br>the University of Ibadan, Nigeria where 
+									It's great to have you here. I'm <b>Paul AJIBOLA</b>; an AI Engineer with a background in <b>Veterinary Medicine</b>
+									<br></br>and a growing focus on <b>building</b> practical, relable AI systems.
+									My journey began in Veterinary Medicine at <br></br>the University of Ibadan, Nigeria where
 									I developed a foundation
 									in <b>scientific reasoning, disease investigation <br></br>and evidence-based problem-solving</b>.
-									My curiosity about data and technology gradually led me into Data Science, <br></br>Machine Learning, and AI Engineering.  
+									My curiosity about data and technology gradually led me into Data Science, <br></br>Machine Learning, and AI Engineering.
 									<br></br>
 									Today, I build AI-Powered applications, intelligent agentic systems, machine learning models and
 									data-driven systems. <br></br>I am constantly looking for ways to apply these technologies to solve global health challenges.
 								</p>
-								
+
 								{/* <div className="bio">
 									<h4 data-aos="fade-up" data-aos-delay="150">
 										<span class="initial-letter">A Multidisciplinary</span> Perspective.
@@ -142,16 +142,16 @@ export default class About extends Component {
 									</h4>
 									<h6 class="padding"><b>Core Technical Skill &#x1F4BB;</b></h6>
 									<p data-aos="fade-up" data-aos-delay="250">
-									<em> My competencies lie in: </em> </p>
+										<em> My competencies lie in: </em> </p>
 									<div
-									className="about-text col-lg-12 col-md-12 col-12"
-									data-aos="fade-up" data-aos-delay="270">
-										<button className="button">AI Engineering</button> <span>Transformers, LLMs, RAG, AI Agents, LangGraph, FastAPI, REST APIs, Finetuning</span> <br/>
-										<button className="button">Machine Learning</button> <span>Scikit-Learn, Supervised Learning, Unsupervised Learning, Model Evaluation, Feature Engineering</span> <br/>
-										<button className="button">Deep Learning & Computer Vision</button> <span>PyTorch, CNNS, Transfer Learning, Image Classification and Object Detection, Sequence Models</span> <br/>
-										<button className="button">Data Science</button> <span>Python, Pandas, NumPy, SQL, Exploratory Data Analyses, Statistical Analyses</span> <br/>
-										<button className="button">Tools & Deployment</button> <span>Git, GitHub, Docker, CI/CD, API deployment</span> <br/>
-										<button className="button">Research</button> <span>Quantitative and Qualitative Methodologies, Scientific Databases (JSTOR, PubMed), Technical Writing</span> <br/>
+										className="about-text col-lg-12 col-md-12 col-12"
+										data-aos="fade-up" data-aos-delay="270">
+										<button className="button">AI Engineering</button> <span>Transformers, LLMs, RAG, AI Agents, LangGraph, FastAPI, REST APIs, Finetuning</span> <br />
+										<button className="button">Machine Learning</button> <span>Scikit-Learn, Supervised Learning, Unsupervised Learning, Model Evaluation, Feature Engineering</span> <br />
+										<button className="button">Deep Learning & Computer Vision</button> <span>PyTorch, CNNS, Transfer Learning, Image Classification and Object Detection, Sequence Models</span> <br />
+										<button className="button">Data Science</button> <span>Python, Pandas, NumPy, SQL, Exploratory Data Analyses, Statistical Analyses</span> <br />
+										<button className="button">Tools & Deployment</button> <span>Git, GitHub, Docker, CI/CD, API deployment</span> <br />
+										<button className="button">Research</button> <span>Quantitative and Qualitative Methodologies, Scientific Databases (JSTOR, PubMed), Technical Writing</span> <br />
 										{/* <button className="button">End-to-End Product Lifecycle Mgt</button> 
 										<button className="button">QA Testing</button>
 										<button className="button">Stakeholder Management</button>
@@ -239,8 +239,8 @@ export default class About extends Component {
 										thing that ever happened to football. No offence, if you are a Ronaldo fan!</i>
 									</p> */}
 									<button className="button2">
-									<a href="https://paul-ajibola.netlify.app/work" 
-									rel="noopener noreferrer">See Project Section &#8594;</a>
+										<a href="https://paul-ajibola.netlify.app/work"
+											rel="noopener noreferrer">See Project Section &#8594;</a>
 									</button>
 								</div>
 							</div>
@@ -249,7 +249,7 @@ export default class About extends Component {
 						</div>
 					</div>
 
-					
+
 
 					<div className="about-social">
 						{/* <a

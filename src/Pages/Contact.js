@@ -73,7 +73,7 @@ export default class Contact extends Component {
                             </div>
                             <div className="row">
                             <div className="col-lg-6 col-md-6 col-sm-6">
-                                    <a href="https://x.com/Product_Maven2?t=LBOrdx0ZZ_Un5gnAKlrYag&s=03" target="_blank" rel="noopener noreferrer"><i  data-aos="fade-down" data-aos-delay="200" className="fa fa-2x fa-twitter" aria-hidden="true"></i>Product Maven2</a>
+                                    <a href="https://www.researchgate.net/profile/Paul-Ajibola" target="_blank" rel="noopener noreferrer"><i  data-aos="fade-down" data-aos-delay="200" className="fa fa-2x fa-book" aria-hidden="true"></i>Paul Ajibola</a>
                                 </div>
                                 <div className="col-lg-6 col-md-6 col-sm-6">
                                     <a href="https://www.linkedin.com/in/paul-ajibola-85181930b/" target="_blank" rel="noopener noreferrer"><i data-aos="fade-down" data-aos-delay="200" className="fa fa-2x fa-linkedin-square" aria-hidden="true"></i><span>Ajibola Paul</span></a>
