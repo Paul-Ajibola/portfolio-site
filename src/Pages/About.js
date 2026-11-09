@@ -88,7 +88,7 @@ export default class About extends Component {
 
 								</p>
 								<button className="button2">
-									<a href="https://drive.google.com/file/d/1qXsVOY7DNekVzwwyc5SSt71HFJvFQSGf/view?usp=sharing"
+									<a href="https://docs.google.com/document/d/1f5WJokZzySbxGtLgUYUgRIG7UFIltGC0K4NsIijp4kA/edit?usp=sharing"
 										target="_blank"
 										rel="noopener noreferrer"
 										download="PaulAJIBOLA_Resume.pdf">Download My Resume</a>
@@ -105,10 +105,11 @@ export default class About extends Component {
 									<br></br>and a growing focus on <b>building</b> practical, relable AI systems.
 									My journey began in Veterinary Medicine at <br></br>the University of Ibadan, Nigeria where
 									I developed a foundation
-									in <b>scientific reasoning, disease investigation <br></br>and evidence-based problem-solving</b>.
-									My curiosity about data and technology gradually led me into Data Science, <br></br>Machine Learning, and AI Engineering.
-									<br></br>
-									Today, I build AI-Powered applications, intelligent agentic systems, machine learning models and
+									in <b>scientific research, disease investigation <br></br>and evidence-based problem-solving</b>.
+									My curiosity about data and technology gradually led me to taking <br></br>extra technical trainings from the <b>
+										WorldQuant University</b> on Data Science, Machine and Deep Learning, and <br></br>Artificial Intelligence.
+									
+									<br></br><hr></hr>Today, I build AI-Powered applications, intelligent agentic systems, machine learning models and
 									data-driven systems. <br></br>I am constantly looking for ways to apply these technologies to solve global health challenges.
 								</p>
 
