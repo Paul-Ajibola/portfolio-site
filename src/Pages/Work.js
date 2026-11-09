@@ -1,4 +1,4 @@
-/* eslint-disable jsx-a11y/anchor-has-content */
+﻿/* eslint-disable jsx-a11y/anchor-has-content */
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "../Components/work.css";
@@ -87,7 +87,7 @@ export default class Work extends Component {
 									</h2>
 								</div>
 								<button className="button2">
-									<a href="https://paul-ajibola.netlify.app/contact"
+									<a href="https://portfolio-site-beta-seven-82.vercel.app/contact"
 										rel="noopener noreferrer">See Contact Me Section &#8594;</a>
 								</button>
 								<p>

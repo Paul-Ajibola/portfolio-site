@@ -94,7 +94,7 @@ export default class About extends Component {
 										download="PaulAJIBOLA_Resume.pdf">Download My Resume</a>
 								</button>
 								<button className="button2">
-									<a href="https://paul-ajibola.netlify.app/work"
+									<a href="https://portfolio-site-beta-seven-82.vercel.app/work"
 										rel="noopener noreferrer">See Project Section &#8594;</a>
 								</button>
 								<p data-aos="fade-right" data-aos-delay="100">
@@ -240,7 +240,7 @@ export default class About extends Component {
 										thing that ever happened to football. No offence, if you are a Ronaldo fan!</i>
 									</p> */}
 									<button className="button2">
-										<a href="https://paul-ajibola.netlify.app/work"
+										<a href="https://portfolio-site-beta-seven-82.vercel.app/work"
 											rel="noopener noreferrer">See Project Section &#8594;</a>
 									</button>
 								</div>
