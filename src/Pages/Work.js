@@ -1,4 +1,4 @@
-﻿/* eslint-disable jsx-a11y/anchor-has-content */
+/* eslint-disable jsx-a11y/anchor-has-content */
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "../Components/work.css";
@@ -143,6 +143,7 @@ export default class Work extends Component {
 												</a>
 											</div>
 										</div>
+
 										<h5>
 											<strong>
 												Clinical Records AI-Assisted Digitization (Ongoing)
@@ -380,7 +381,7 @@ export default class Work extends Component {
 											<strong>Policy Co-pilot RAG System</strong>
 										</h5>
 			<p>
-				A retrieval-augmented policy question-answering application using Next.js, FastAPI, and pgvector with dense and full-text search. It answers user policy questions with citations when confidence thresholds are met and escalates low-confidence questions instead of providing answers.
+				A retrieval-augmented policy question-answering application using Next.js, FastAPI, and pgvector with dense and full-text search. It answers user policy questions with citations when confidence thresholds are met.
 			</p>
 			<p>
 				I built the FastAPI backend with retrieval and reranking, integrated pgvector for vector search, vibe-coded the Next.js, React, TypeScript frontend, implemented confidence gating and citation generation, handled user feedback collection, and configured Gemini and Groq LLM providers for answer generation.

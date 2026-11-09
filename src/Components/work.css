@@ -208,3 +208,59 @@ button:focus {
 	align-items: center;
 	gap: 0px
   }
+
+  /* Project Status Icon */
+  .status-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-right: 8px;
+    position: relative;
+    z-index: 10;
+  }
+
+  .status-dot {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    position: relative;
+    z-index: 2;
+    box-shadow: 0 0 10px currentColor;
+  }
+
+  .status-dot.yellow { background-color: #fbbf24; color: #fbbf24; }
+  .status-dot.green { background-color: #22c55e; color: #22c55e; }
+  .status-dot.red { background-color: #ef4444; color: #ef4444; }
+
+  /* Rippling waves around the dot */
+  .status-dot::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 0 0 currentColor;
+    animation: statusRipple 3s ease-out infinite;
+    z-index: 1;
+    pointer-events: none;
+  }
+
+  .status-dot.yellow::after { color: #fbbf24; }
+  .status-dot.green::after { color: #22c55e; }
+  .status-dot.red::after { color: #ef4444; }
+
+  @keyframes statusRipple {
+    0% {
+      transform: translate(-50%, -50%) scale(0);
+      box-shadow: 0 0 0 0 currentColor;
+      opacity: 1;
+    }
+    100% {
+      transform: translate(-50%, -50%) scale(5);
+      box-shadow: 0 0 0 45px rgba(255, 255, 255, 0);
+      opacity: 0;
+    }
+  }
